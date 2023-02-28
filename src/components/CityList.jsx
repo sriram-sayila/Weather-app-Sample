@@ -5,8 +5,8 @@ class CityList extends React.Component {
   // state = {
   //   value:'kolkata'
   // }
-  constructor(){
-    super()
+  constructor(props){
+    super(props)
   }
   render() {
     // function handleSearch(e) {
