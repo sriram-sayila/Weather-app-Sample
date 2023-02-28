@@ -1,0 +1,128 @@
+.App {
+  /* text-align: center; */
+  background-image: url(assests/world.png);
+  width: 100%;
+  height: 100%;
+      /* The image used */
+
+      /* Full height */
+      height: 100%; 
+  
+      /* Center and scale the image nicely */
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  /* height: 40vmin; */
+  pointer-events: none;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.input-group {
+  width: 40%;
+  margin-left: 30%;
+}
+
+.setHeader{
+  display: flex;
+  justify-content:space-between;
+  align-items: center;
+  color:#1F3D70;
+}
+
+.setTimerColor{
+  color: #1F3D70;
+  font-size: 24px;
+}
+
+.temperature {
+  font-size: 4em;
+  text-align: center;
+  color:#1F3D70
+}
+
+._header{
+    font-size: 2em;
+    text-align: center;
+    color:#1F3D70
+  
+}
+span {
+    position: relative;
+    left: 10px;
+    display: inline-block;
+    text-align: center;
+    margin: 0 auto;
+}
+
+._last{
+  font-size: 1em;
+    text-align: center;
+    color:#1F3D70
+}
+
+.city-card__info{
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.info-list{
+  color:#1F3D70
+}
+
+.image-tag-animate {
+  width: 100px;
+  animation: rotation 5s infinite linear;
+}
+
+@keyframes rotation {
+  from {
+    transform: rotateY(0deg);
+  }
+  to {
+    transform: rotateY(360deg);
+  }
+}
+
+/* svg {
+  max-width: 100%;
+  width: 300px;
+  
+} */
+
+.continents {
+  fill: #587322;
+}
+
+.input-group-text {
+  cursor: pointer;
+}
+
+.setPaddingCard{
+  padding-bottom:200px;
+}
