@@ -16,10 +16,6 @@ class WeatherDetails extends Component {
       longitude : 0
     }
   };
-  constructor() {
-    super();
-    // this.state = {time: new Date()}
-  }
 
   setWeatherData = data => {
     this.setState({ weatherData: data });
