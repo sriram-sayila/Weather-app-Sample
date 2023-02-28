@@ -157,7 +157,7 @@ class WeatherDetails extends React.Component {
                 <strong>Max Temperature:</strong> {this.state.weatherData.main.temp_max} Celsius
               </div>
               <div className="info-list-item">
-                <strong>Max Temperature:</strong> {this.state.weatherData.main.temp_max} Celsius
+                <strong>Min Temperature:</strong> {this.state.weatherData.main.temp_min} Celsius
               </div>
               <div className="info-list-item">
                 <strong>last update at:</strong>
