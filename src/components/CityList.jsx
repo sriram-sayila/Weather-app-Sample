@@ -5,6 +5,9 @@ class CityList extends React.Component {
   // state = {
   //   value:'kolkata'
   // }
+  constructor(){
+    super()
+  }
   render() {
     // function handleSearch(e) {
     //   // here you can get the inputValue
@@ -26,9 +29,9 @@ class CityList extends React.Component {
           <option value="8131587">Athens</option>
         </select> */}
         {/* <input onKeyUp={this.props.onCitySelect} /> */}
-        <div class="input-group flex-nowrap" >
-          <input type="text" class="form-control" placeholder="Search City" aria-label="Username" aria-describedby="addon-wrapping" onBlur={this.props.onCitySelect}/>
-          <span class="input-group-text" id="addon-wrapping" >
+        <div className="input-group flex-nowrap" >
+          <input type="text" className="form-control" placeholder="Search City" aria-label="Username" aria-describedby="addon-wrapping" onBlur={this.props.onCitySelect}/>
+          <span className="input-group-text" id="addon-wrapping" >
             Search
           </span>
           &nbsp;&nbsp;

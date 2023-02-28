@@ -1,4 +1,4 @@
-import React from "react";
+import React, {Component} from "react";
 import "../App.css";
 import logo from '../assests/icons8-sun-behind-cloud-48.png'
 
