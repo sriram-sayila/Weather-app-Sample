@@ -5,7 +5,7 @@ import image from '../assests/earth.svg'
 
 const weather_api_key = "5d2d6cb3ae56318ea2467e70a93bba70";
 
-class WeatherDetails extends Component {
+class WeatherDetails extends React.Component {
   state = {
     weatherData: null,
     time: new Date(),

@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import './../App.css'
 import logo from "../assests/gps-icon.svg"
-class CityList extends Component {
+class CityList extends React.Component {
   // state = {
   //   value:'kolkata'
   // }
