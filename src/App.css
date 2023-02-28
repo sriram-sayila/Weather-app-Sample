@@ -151,6 +151,12 @@ span {
     text-decoration: underline;
   }
 
+  .temperature {
+    font-size: 2.5em;
+    text-align: center;
+    color:#1F3D70
+  }
+
 }
 
 .temperature-feels-like{
