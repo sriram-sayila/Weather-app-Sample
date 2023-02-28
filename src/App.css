@@ -126,3 +126,35 @@ span {
 .setPaddingCard{
   padding-bottom:200px;
 }
+
+@media only screen and (max-width: 600px) {
+  .city-card__info{
+    display: block;
+    margin-left: 16%;
+  }
+  .setHeader{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    color:#1F3D70;
+  }
+  h1 {
+    font-size: 18px !important;
+  }
+
+  .setTimerColor{
+    color: #1F3D70;
+    font-size: 18px;
+  }
+
+  .city-card__info{
+    text-decoration: underline;
+  }
+
+}
+
+.temperature-feels-like{
+  font-size: 1.7em;
+  text-align: center;
+  color:#1F3D70
+}
